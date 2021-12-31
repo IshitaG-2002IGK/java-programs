@@ -40,5 +40,20 @@ public class stropr
         System.out.println(a);
     }
 
-    public static void main
+    public static void main (String args [])
+    {
+        int ch;
+        try
+        {
+            do{
+                System.out.println( "MENU \n1. Append \n2. Add \n3. Search \n4. Display \n6. Exit");
+                System.out.println( "Enter your choice : ");
+                ch=sc.nextInt();
+                switch(ch)
+                {
+                    case 1 :
+                }
+            }
+        }
+    }
 }
