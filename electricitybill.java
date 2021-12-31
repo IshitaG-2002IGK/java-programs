@@ -76,6 +76,8 @@ public class electricitybill
                 System.out.println ("Sorry not sorry");
             }
         }
+
+        System.out.println("The amount is: " + amount);
         
 
 
