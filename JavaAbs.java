@@ -12,7 +12,7 @@ class rectangle extends Shape
     {
         float area;
         area = x*y;
-        System.out.println ("Area of retangle is :" +area)
+        System.out.println ("Area of retangle is :" +area);
     }
 
 
@@ -24,7 +24,7 @@ class triangle extends Shape
     {
         float area;
         area = 0.5*x*y;
-        System.out.println ("Area of retangle is :" +area)
+        System.out.println ("Area of triangle is :" +area);
     }
 
 
