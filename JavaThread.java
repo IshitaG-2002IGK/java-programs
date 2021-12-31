@@ -18,7 +18,7 @@ class odd implements Runnable
 {
     public int x;
     public odd (int x)
-    
+    {
         this.x = x;
 
     }
