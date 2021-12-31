@@ -66,8 +66,8 @@ public class stropr
                              display();
                              break;
                     case 5 :
-                            exit(0);
-                    
+                             System.exit(0);
+                            break;
                     default :
                             System.out.println("Invalid output");
                             break;
