@@ -34,4 +34,11 @@ public class stropr
 
     }
 
+    private static void display()
+    {
+        for(String a : var)
+        System.out.println(a);
+    }
+
+    public static void main
 }
