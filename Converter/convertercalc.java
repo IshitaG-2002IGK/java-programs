@@ -39,10 +39,17 @@ public class convertercalc
                     km = sc.nextDouble();
                     meter =  km * 1000;
                     System.out.println("The meter is :" + meter);
+                    break ;
 
             case 3 :
-                    
-                    
+                    System.out.println("Hours to mins and seconds");
+                    System.out.println("Enter the hours");
+                    hr = sc.nextDouble();
+                    min = hr * 60 ;
+                    sec = hr * 3600 ;
+                    System.out.println("The minutes is  :" + min);
+                    System.out.println("The seconds is :" + sec);
+                    break ;
 
 
 
