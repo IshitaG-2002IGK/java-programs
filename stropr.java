@@ -65,12 +65,7 @@ public class stropr
                     case 4 :
                              display();
                              break;
-
-                    case 4 :
-                             display();
-                             break;
-                    
-                    case 5 :
+                    case 6 :
                             exit(0);
                     
                     default :
