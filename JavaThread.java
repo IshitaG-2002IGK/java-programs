@@ -3,7 +3,7 @@ import java.util.*;
 class even implements Runnable 
 {
     public int x;
-    public even (int x);
+    public even (int x)
     {
         this.x = x;
 
@@ -17,8 +17,8 @@ class even implements Runnable
 class odd implements Runnable 
 {
     public int x;
-    public odd (int x);
-    {
+    public odd (int x)
+    
         this.x = x;
 
     }
@@ -58,7 +58,7 @@ class A extends Thread
         }
         catch (Exception e)
         {
-            System.out.println(ex.getMessage());
+            System.out.println(e.getMessage());
 
         }
     }
@@ -66,10 +66,10 @@ class A extends Thread
 
 public class JavaThread
 {
-    public static void main( Srting args [])
+    public static void main( String args [])
     {
         A a = new A ();
         a.start();
-        
+
     }
 }
