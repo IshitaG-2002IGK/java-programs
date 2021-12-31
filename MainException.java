@@ -27,7 +27,10 @@ class MainException
 
         catch ( MyException e)
         {
-            System
+            System.out.println( "Catch Block") ;
+            System.out.println(e) ;
+
+
         }
     }
 }
