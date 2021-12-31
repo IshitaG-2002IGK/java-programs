@@ -46,14 +46,45 @@ public class stropr
         try
         {
             do{
-                System.out.println( "MENU \n1. Append \n2. Add \n3. Search \n4. Display \n6. Exit");
+                System.out.println( "MENU \n1. Append \n2. Add \n3. Search \n4. Display \n5. Exit");
                 System.out.println( "Enter your choice : ");
                 ch=sc.nextInt();
                 switch(ch)
                 {
                     case 1 :
+                             append();
+                             break;
+                    case 2 :
+                             add();
+                             break;
+
+                    case 3 :
+                             search();
+                             break;
+                    
+                    case 4 :
+                             display();
+                             break;
+
+                    case 4 :
+                             display();
+                             break;
+                    
+                    case 5 :
+                            exit(0);
+                    
+                    default :
+                            System.out.println("Invalid output");
+                            break;
+
+
+                            
                 }
-            }
+            } while (true);
+        }
+        catch (Exception e)
+        {
+            System.out.println (e);
         }
     }
 }
