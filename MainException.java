@@ -21,7 +21,7 @@ class MainException
         try 
         {
             System.out.println ("Starting of try block ");
-            throw new Myexception ("This is my error message");
+            throw new MyException ("This is my error message");
         
         }
 
