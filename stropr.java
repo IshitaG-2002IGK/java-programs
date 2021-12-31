@@ -7,7 +7,7 @@ public class stropr
     private static scan = new Scanner (System.in);
     private static void append ()
     {
-        System.out.println( "Appended Successfully");
+        System.out.println( "Enter the string to append");
         
         
         System.out.println( "Appended Successfully");
