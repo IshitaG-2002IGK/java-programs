@@ -23,7 +23,7 @@ class triangle extends Shape
     public void printarea()
     {
         float area;
-        area = 0.5*x*y;
+        area = (x*y)/2;
         System.out.println ("Area of triangle is :" +area);
     }
 
