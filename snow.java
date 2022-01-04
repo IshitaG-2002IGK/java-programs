@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-public class snowy extends JPanel {
+public class snow extends JPanel {
 int midX = 220;
 int midY = 280;
 public void paintComponent(Graphics g) {
