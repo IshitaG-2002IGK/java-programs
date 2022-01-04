@@ -11,7 +11,8 @@ class calc extends Frame implements ActionListener
  Button btn[] = new Button[16];
  int num1 = 0, num2 = 0, result = 0;
  char op;
- public calc() {
+ public calc()
+{
   Font f = new Font("Cambria", Font.BOLD, 18);
   tfInput = new TextField(10);
   tfInput.setFont(f);
@@ -19,18 +20,21 @@ class calc extends Frame implements ActionListener
   add(tfInput, "North");
   add(panel, "Center");
   panel.setLayout(new GridLayout(4,4));
-  for(int i=0; i < 16; i++) {
-   btn[i] = new Button(btnString[i]);
-   btn[i].setFont(f);
-   btn[i].addActionListener(this);
-   panel.add(btn[i]);
+  for(int i=0; i < 16; i++) 
+  {
+    btn[i] = new Button(btnString[i]);
+    btn[i].setFont(f);
+    btn[i].addActionListener(this);
+    panel.add(btn[i]);
   }
-  addWindowListener(new WindowAdapter(){
-   public void windowClosing(WindowEvent we) {
-    System.exit(0);
-   }
-  });
- }
+//   addWindowListener(new WindowAdapter()
+//   {
+//    public void windowClosing(WindowEvent we) 
+//    {
+//     System.exit(0);
+//    }
+//   });
+//  }
  public void actionPerformed(ActionEvent ae) {
   String str = ae.getActionCommand();
   if(str.equals("+")) {
