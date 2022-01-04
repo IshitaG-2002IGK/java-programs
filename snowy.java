@@ -6,7 +6,7 @@ int midX = 220;
 int midY = 280;
 public void paintComponent(Graphics g) {
 super.paintComponent(g);
-setBackground(new Color(40,144,0));
+setBackground(Color.RED);
 //g.setColor (Color.yellow);
 //g.fillArc (-40, -40, 80, 80, 0, -90); // sun
 g.setColor (Color.white);
