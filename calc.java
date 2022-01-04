@@ -27,16 +27,18 @@ class calc extends Frame implements ActionListener
     btn[i].addActionListener(this);
     panel.add(btn[i]);
   }
-//   addWindowListener(new WindowAdapter()
-//   {
-//    public void windowClosing(WindowEvent we) 
-//    {
-//     System.exit(0);
-//    }
-//   });
-//  }
- public void actionPerformed(ActionEvent ae) {
+  // addWindowListener(new WindowAdapter()
+  // {
+  //  public void windowClosing(WindowEvent we) 
+  //  {
+  //   System.exit(0);
+  //  }
+  // });
+ }
+ public void actionPerformed(ActionEvent ae) 
+ {
   String str = ae.getActionCommand();
+  
   if(str.equals("+")) {
    op = '+';
    num1 = Integer.parseInt(tfInput.getText());
