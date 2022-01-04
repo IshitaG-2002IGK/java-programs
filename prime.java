@@ -1,11 +1,16 @@
-
+import java.io.*;
+import java.util.Scanner;
 
 public class prime 
 {
 
-    public static void main(String[] args) {
-  
-      int num = 29;
+    public static void main(String[] args) 
+    {
+        
+      Scanner sc = new Scanner(System.in);
+      int num;
+      System.out.println("\nEnter a number:");
+      num=sc.nextInt();
       boolean flag = false;
       for (int i = 2; i <= num / 2; ++i) {
         // condition for nonprime number
