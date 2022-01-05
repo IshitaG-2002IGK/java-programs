@@ -16,7 +16,7 @@ Button b2=new Button("Sub");
 Button b3=new Button("Mul");
 Button b4=new Button("Div");
 Button b5=new Button("Cancel");
-Calculator()
+Calculator(
 {
 //Giving Coordinates
 l1.setBounds(50,100,100,20);
