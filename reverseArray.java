@@ -10,7 +10,7 @@ public class reverseArray
 
     public static void main(String[] args)
     {
-        Integer [] a = {10,20,30,20,40,50};
-        reverse(a);
+        Integer [] arr = {10,20,30,20,40,50};
+        reverse(arr);
     }
 }
